@@ -1,6 +1,6 @@
 # Projeto Barra-Bola
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gusnavasco/projeto-barra-bola/blob/main/gerar_bode_e_visualizar_senoides.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gusnavasco/projeto-barra-bola/blob/main/analise_dados_frequencia/gerar_bode_e_visualizar_senoides.ipynb)
 
 Este repositório contém os códigos e a documentação utilizados no PFC (de Engenharia de Controle e Automação) dos autores, baseado num sistema **Barra-Bola**. 
 
