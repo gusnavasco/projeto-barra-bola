@@ -103,7 +103,7 @@ void loop() {
     active_controller = mb.Hreg(1);
     setpoint = mb.Hreg(0) / 100.0;
     
-    // Filtro Exponencial (Média Móvel Ponderada)
+    // Filtro passa-baixa (suavização exponencial simples)
     filtered_ball_distance = (alpha * measure_ball_distance()) + ((1.0 - alpha) * filtered_ball_distance);
    
     error = setpoint - filtered_ball_distance;
