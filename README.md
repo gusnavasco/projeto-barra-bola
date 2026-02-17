@@ -23,7 +23,7 @@ Será necessário compilar o firmware no ESP32 (caso não já esteja compilado),
 Certifique-se de instalar as seguintes bibliotecas antes de compilar:
 - `ESP32Servo`
 - `Adafruit_VL53L0X`
-- `ModbusRTU`
+- `modbus-esp8266`
 
 Por fim, deve ser utilizada a [plataforma SCADA](https://drive.google.com/drive/folders/1yL5zZIkXXlfEQxrBfF8c0DKOGJqZQ0hC?usp=drive_link) desenvolvida no PFC para visualização gráfica das variáveis do sistema. Lá também será possível alterar os ganhos dos controladores desenvolvidos dinamicamente, realizar ensaios em frequência, salvar e exportar dados dos experimentos e até ler sobre a teoria dos controladores utilizados (PID e avanço de fase) e da própria ferramenta SCADA (de forma genérica).
 
