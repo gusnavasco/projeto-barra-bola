@@ -31,4 +31,4 @@ Por fim, deve ser utilizada a [plataforma SCADA](https://drive.google.com/drive/
 
 Para rodar os códigos de análise de dados, clique no botão "Open in Colab" no topo desta página. O Google Colab abrirá o notebook interativo (`gerar_bode_e_visualizar_senoides.ipynb`), em que você pode fazer o upload de um arquivo `.csv` gerado pela [plataforma SCADA](https://drive.google.com/drive/folders/1yL5zZIkXXlfEQxrBfF8c0DKOGJqZQ0hC?usp=drive_link), gerando os gráficos sem instalar nada no computador.
 
-Também foram deixados os arquivos `.py` na pasta "analise_dados", caso prefera rodar localmente. Recomenda-se a utilização de um ambiente virtual, em que devem ser instaladas as dependências: `pip install pandas numpy matplotlib`
+Também foram deixados os arquivos `.py` na pasta "analise_dados_frequencia", caso prefera rodar localmente. Recomenda-se a utilização de um ambiente virtual, em que devem ser instaladas as dependências: `pip install pandas numpy matplotlib`
