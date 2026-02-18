@@ -8,10 +8,12 @@ O objetivo principal deste projeto é servir como **plataforma didática** para 
 
 ## Estrutura do Repositório
 
-* `/firmware`: Contém o código do ESP32.
 * `/analise_dados`: Scripts em Python para visualização de dados e geração do Diagrama de Bode.
-* `/docs`: Diagrama de conexões do hardware, foto do projeto e diagrama do fluxo de dados do sistema.
+* `/apendices`: Materiais complementares referenciados na monografia do PFC, organizados em subpastas correspondentes.
 * `/dados_exemplo`: Arquivo `.csv` de exemplo, com dados reais coletados do sistema.
+* `/docs`: Diagrama de conexões do hardware, foto do projeto e diagrama do fluxo de dados do sistema.
+* `/firmware`: Contém o código do ESP32.
+
 
 ## Como usar este projeto
 
