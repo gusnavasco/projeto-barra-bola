@@ -9,7 +9,7 @@ CONSTANTES = {
     'ARQUIVO_PADRAO': 'dados.csv',
     'AMPLITUDE_MINIMA': 0.05,
     # Lista usada apenas para validação e mensagem de erro
-    'COLUNAS_OBRIGATORIAS': ['DataHora', 'Período', 'Setpoint', 'Posição']
+    'COLUNAS_OBRIGATORIAS': ['DataHora', 'Período', 'Setpoint', 'Variavel_Controlada']
 }
 
 def encaixar_senoide(tempo, sinal, frequencia_hz):
@@ -110,7 +110,7 @@ def filtrar_e_ajustar_dados(df, periodo_alvo):
 
     t = dados_estaveis['Tempo_Segundos'].values
     u_real = dados_estaveis['Setpoint'].values
-    y_real = dados_estaveis['Posição'].values
+    y_real = dados_estaveis['Variavel_Controlada'].values
     
     freq_hz = 1.0 / periodo_alvo
     

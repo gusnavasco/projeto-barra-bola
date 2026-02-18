@@ -11,7 +11,7 @@ CONSTANTES = {
     'JANELA_ANALISE_S': 30,      # Segundos finais de cada frequência a serem analisados
     'ARQUIVO_PADRAO': 'dados.csv',
     # Lista de colunas que OBRIGATORIAMENTE devem existir no CSV
-    'COLUNAS_OBRIGATORIAS': ['DataHora', 'Período', 'Setpoint', 'Posição']
+    'COLUNAS_OBRIGATORIAS': ['DataHora', 'Período', 'Setpoint', 'Variavel_Controlada']
 }
 
 def encaixar_senoide(tempo, sinal, frequencia_hz):
@@ -113,7 +113,7 @@ def calcular_resposta_frequencia(df):
         tempo = dados_estaveis['Tempo_Segundos'].values
         # Acesso direto às colunas pelo nome string
         sinal_u = dados_estaveis['Setpoint'].values
-        sinal_y = dados_estaveis['Posição'].values
+        sinal_y = dados_estaveis['Variavel_Controlada'].values
 
         amp_u, fase_u, r2_u = encaixar_senoide(tempo, sinal_u, freq_hz)
         amp_y, fase_y, r2_y = encaixar_senoide(tempo, sinal_y, freq_hz)
