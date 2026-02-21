@@ -2,9 +2,11 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gusnavasco/projeto-barra-bola/blob/main/analise_dados_frequencia/gerar_bode_e_visualizar_senoides.ipynb)
 
-Este repositório contém os códigos e a documentação utilizados no PFC (de Engenharia de Controle e Automação) dos autores, baseado num sistema **Barra-Bola**. 
+Este repositório contém os códigos e a documentação utilizados no PFC de Engenharia de Controle e Automação dos autores, baseado num sistema **Barra-Bola**. 
 
 O objetivo principal deste projeto é servir como **plataforma didática** para estudantes que desejam visualizar, na prática, conceitos de teoria de controle aprendidos no curso.
+
+Este trabalho é uma continuação do [projeto desenvolvido por Campanha (2025)](https://github.com/Gabrielcampanha/ball-and-beam-control-system).
 
 ## Estrutura do Repositório
 
